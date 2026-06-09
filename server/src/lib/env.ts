@@ -2,7 +2,7 @@ import { z } from "zod";
 
 const envSchema = z.object({
   NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
-  PORT: z.coerce.number().default(3001),
+  PORT: z.coerce.number().default(3000),
   DATABASE_URL: z.string().min(1),
 
   CLERK_PUBLISHABLE_KEY: z.string().min(1),
@@ -14,7 +14,8 @@ const envSchema = z.object({
   POLAR_ACCESS_TOKEN: z.string().optional(),
   POLAR_WEBHOOK_SECRET: z.string().optional(),
   POLAR_API_BASE: z.string().url().default("https://api.polar.sh"),
-  POLAR_CHECKOUT_PRODUCT_ID: z.string(),
+
+  POLAR_CHECKOUT_PRODUCT_ID: z.string().uuid(),
 
   STREAM_API_KEY: z.string().min(1),
   STREAM_API_SECRET: z.string().min(1),
