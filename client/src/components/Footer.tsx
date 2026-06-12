@@ -12,8 +12,8 @@ export default function Footer() {
               Nexora Supply
             </div>
             <p className="mt-3 text-sm leading-relaxed text-base-content/65">
-              Curated hardware and workspace tools. Paid orders include priority support; chat with
-              our team and join a video call when we share a link.
+              Browse a curated collection of technology and lifestyle essentials chosen for performance and convenience. 
+              Every order is supported by a secure checkout process and dedicated customer care.
             </p>
           </div>
 

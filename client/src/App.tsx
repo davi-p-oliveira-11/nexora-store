@@ -3,6 +3,7 @@ import PageLoader from './components/PageLoader';
 import Layout from './components/Layout';
 import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
+import CartPage from './pages/CartPage';
 
 function App() {
   const { isLoaded } = useAuth();
@@ -13,6 +14,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Homepage />}/>
+        <Route path="/cart" element={<CartPage />}/>
       </Routes>
     </Layout>
   )

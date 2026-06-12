@@ -17,12 +17,12 @@ export function HomeHero({ categories, loadingCategories }: HomeHeroProps) {
       <div className="relative grid gap-8 p-8 md:grid-cols-2 md:items-center md:p-12 lg:p-14">
         <div className="text-left">
           <h1 className="text-3xl font-bold tracking-tight text-base-content md:text-4xl lg:text-5xl">
-            Hardware &amp; workspace, <span className="text-primary">ready to ship</span>
+            Tech essentials & accessories, <span className="text-primary">delivered to your door</span>
           </h1>
 
           <p className="mt-4 max-w-lg text-base leading-relaxed text-base-content/70">
-            Audio, wearables, workspace, and travel—curated for work and home. Secure checkout;
-            after payment, use your order page for support chat and video.
+            Explore a selection of tech accessories, productivity gear, and everyday essentials. 
+            Complete your purchase with confidence and access customer assistance directly from your order dashboard.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
